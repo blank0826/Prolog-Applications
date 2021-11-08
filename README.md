@@ -82,8 +82,9 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install SWI Prolog from [here](https://www.swi-prolog.org/download/stable).
 
 ### Execution
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull the code and then open SWI-Prolog.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Click on File->Edit then open the .pl files that you just pulled. A notepad with the rules will open.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Here you can edit the rules as you want then press Compile->Make in the notepad.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Get back to console and then consult the same file.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Pull the code and then open SWI-Prolog.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Click on File->Edit then open the .pl files that you just pulled. A notepad with the rules will open.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Here you can edit the rules as you want then press Compile->Make in the notepad.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Get back to console and then consult the same file.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Now you will be able to use the file by just entering the rules and data.
+<br />
