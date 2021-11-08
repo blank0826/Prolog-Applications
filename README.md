@@ -11,7 +11,7 @@ When we look for the provided prefix it first split the list into the same lengt
     This function is used to split the **first half** of the list in the exact same length as that of the prefix provided and then return it back so that it can be checked for equality<br /><br />
 **iii. equalListPrefix([H1|T1],[H2|T2])**
     This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
-<img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="200" height="150">
+<img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="200" height="250">
 
 
 
