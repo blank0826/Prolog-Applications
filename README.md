@@ -45,8 +45,6 @@ A binary tree is created from the list provided by taking elements from the inde
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree and in the result provides the required binary search tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. insert(List, I, Length, tree(NewLeft,NewRoot,NewRight))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the index first and take out the element from there and then take that as a current root then take out indexes for its left and right child while simultaneously checking that these indexes stay within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
-    
-![image](https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png)
 
 ### 2. Binary Search Tree
 A binary tree is created from the list provided by taking elements and checking whether it is less than or greater than the root node.<br />
@@ -62,8 +60,6 @@ After checking the condition we move it into its left or right subtree.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv. construct([CurrentNode|ElementList], CurrentTree, ResultTree)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree the current tree represents the head of the tree which will be null initially. It creates a node from the first element of the existing list and inserts it into the tree then calls recursion to make a tree from the whole list. <br /><br />
 
-![image](https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png)
-
 ### 3. Mirror Tree
 We are given a list and its shows the mirror of its binary tree or binary search tree.
 
@@ -75,16 +71,15 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. mirrorImage_Tree(tree(Left, Root, Right),tree(NewLeft,Root,NewRight))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
 
-![image](https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png)
 ### Screenshots of the Gameplay
 ### Binary Tree
-<img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="220" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png" width="220" height="250">
 
 ### Binary Search Tree
-<img src="https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png" width="220" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png" width="220" height="250">
 
 ### Mirror Tree
-<img src="https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png" width="220" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="220" height="250">
 
 
 ## Getting Started
