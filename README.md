@@ -73,13 +73,13 @@ We are given a list and its shows the mirror of its binary tree or binary search
 
 ### Screenshots of the Gameplay
 ### Binary Tree
-<img src="https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png" width="350" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png" width="450" height="250">
 
 ### Binary Search Tree
-<img src="https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png" width="370" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png" width="470" height="250">
 
 ### Mirror Tree
-<img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="320" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="420" height="250">
 
 
 ## Getting Started
