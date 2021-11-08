@@ -68,7 +68,7 @@ We are given a list and its shows the mirror of its binary tree or binary search
 #### <ins>Rules Implemented</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. mirror(List,tree(Left,Root,Right))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the list and first creates the basic tree then it creates its mirror tree and returns it back.<br />
-    _(If you just change the insert function in here with construct you will be able to get the mirror of the BST as well.)_<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    _(If you just change the insert function in here with construct you will be able to get the mirror of the BST as well.)_<br />
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. mirrorImage_Tree(tree(Left, Root, Right),tree(NewLeft,Root,NewRight))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
