@@ -76,6 +76,13 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
 
 ![image](https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png)
+### Screenshots of the Gameplay
+### Prefix
+<img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="220" height="250">
+
+### Suffix
+<img src="https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png" width="220" height="250">
+
 
 ## Getting Started
 ### Pre-Requisites
@@ -88,3 +95,6 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Get back to console and then consult the same file.<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Now you will be able to use the file by just entering the rules and data.
 <br />
+
+## Contact
+### [Aditya Srivastava](mailto:aditya26052002@gmail.com?subject=GitHub)
