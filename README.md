@@ -8,10 +8,10 @@ When we look for the provided prefix it first split the list into the same lengt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. prefix(List1,List2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is provided with the prefix and the list to give out the result.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. splitPrefix([Head|RemList],I,[Head|Result])**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to split the **first half** of the list in the exact same length as that of the prefix provided <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is used to split the **first half** of the list in the exact same length as that of the prefix provided <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and then return it back so that it can be checked for equality<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. equalListPrefix([H1|T1],[H2|T2])**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it will return false else if the function is able to traverse through both the lists completely then it can be <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;said that the provided prefix was correct. <br /><br />
 
@@ -20,12 +20,12 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 
 ### <ins>Rules Implemented</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. suffix(List1,List2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the suffix and the list to give out the result.<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is provided with the suffix and the list to give out the result.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. splitSuffix([__|RemList],I,Result)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to split the **second half** of the list in the exact same length as that of the suffix <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is used to split the **second half** of the list in the exact same length as that of the suffix <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provided and then return it back so that it can be checked for equality<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. equalListSuffix([H1|T1],[H2|T2])**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it will return false else if the function is able to traverse through both the lists completely then it can be <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;said that the provided prefix was correct. <br /><br />
 
@@ -48,9 +48,11 @@ A binary tree is created from the list provided by taking elements from the inde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. createBT(CurrentNode, tree(-,CurrentNode,-))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to create a node of the tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. insert(List,tree(NewLeft,NewRoot,NewRight))**<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree and in the result provides the required binary search tree.<br /><br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree and in the result provides the required binary <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. insert(List, I, Length, tree(NewLeft,NewRoot,NewRight))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the index first and take out the element from there and then take that as a current root then take out indexes for its left and right child while simultaneously checking that these indexes stay within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the index first and take out the element from there and then take that as a current root then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;take out indexes for its left and right child while simultaneously checking that these indexes stay within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
 
 ## 2. Binary Search Tree
 A binary tree is created from the list provided by taking elements and checking whether it is less than or greater than the root node.<br />
