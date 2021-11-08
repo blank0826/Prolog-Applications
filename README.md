@@ -25,4 +25,4 @@ Suffix works the same as prefix it just takes the second half of the list while 
 **3. equalListSuffix([H1|T1],[H2|T2])**
     This function checks whether it the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
 
-![image](https://user-images.githubusercontent.com/33955028/140699764-59456196-d158-4006-b862-bddbce9a3720.png)
+![image](https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png)
