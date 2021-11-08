@@ -22,9 +22,11 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. suffix(List1,List2)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the suffix and the list to give out the result.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. splitSuffix([__|RemList],I,Result)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to split the **second half** of the list in the exact same length as that of the suffix provided and then return it back so that it can be checked for equality<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to split the **second half** of the list in the exact same length as that of the suffix <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;provided and then return it back so that it can be checked for equality<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. equalListSuffix([H1|T1],[H2|T2])**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
 
 ## Screenshots
 ### Prefix
