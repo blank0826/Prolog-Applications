@@ -61,6 +61,15 @@ After checking the condition we move it into its left or right subtree.
 ![image](https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png)
 
 ### 3. Mirror Tree
-A binary tree is created from the list provided by taking elements from the index similar to that as done in array implementation of Binary Tree.<br />
-All the tress are in the format of tree(Left,Root,Right).
+We are given a list and its shows the mirror of its binary tree or binary search tree.
+
+#### <ins>Functions Used</ins>
+**i. mirror(List,tree(Left,Root,Right))**
+    This function is provided with the list and first creates the basic tree then it creates it mirror tree and returns it back.<br />
+    _(If you just change the insert fucntion in here with construct you will be able to get the mirror of the BST as well.)_<br />
+    
+**ii. mirrorImage_Tree(tree(Left, Root, Right),tree(NewLeft,Root,NewRight))**
+    Here we get the tree and then throught recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
+
+![image](https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png)
 
