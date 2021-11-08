@@ -6,12 +6,14 @@ The application tries to check whether the provided suffix or prefix satisfies t
 When we look for the provided prefix it first split the list into the same length of the prefix as we have to check only those elements in a list and then it will check whether it is equal or not.
 ### <ins>Rules Implemented</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. prefix(List1,List2)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the prefix and the list to give out the result.<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is provided with the prefix and the list to give out the result.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. splitPrefix([Head|RemList],I,[Head|Result])**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to split the **first half** of the list in the exact same length as that of the prefix provided <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and then return it back so that it can be checked for equality<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. equalListPrefix([H1|T1],[H2|T2])**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it will return false else if the function is able to traverse through both the lists completely then it can be said that <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the provided prefix was correct. <br /><br />
 
 ## 2. Suffix
 Suffix works the same as a prefix it just takes the second half of the list while splitting rather than the first half as taken in Prefix.
