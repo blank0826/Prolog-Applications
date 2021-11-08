@@ -30,10 +30,10 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;said that the provided prefix was correct. <br /><br />
 
 ## Screenshots
-### Prefix
+### <ins>Prefix</ins>
 <img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="220" height="250">
 
-### Suffix
+### <ins>Suffix</ins>
 <img src="https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png" width="220" height="250">
 
 # B. Creation of Binary Tree_Binary Search Tree and its Mirror
