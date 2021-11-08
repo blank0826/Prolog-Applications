@@ -27,7 +27,7 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 **iii. equalListSuffix([H1|T1],[H2|T2])**
     This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
 
-![image](https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png)
+<img src="https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png" width="220" height="250">
 
 ## B. Creation of Binary Tree_Binary Search Tree and its Mirror
 ### Description
