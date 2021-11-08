@@ -20,7 +20,7 @@ Suffix works the same as prefix it just takes the second half of the list while 
 #### <ins>Functions Used</ins>
 **1. suffix(List1,List2)**
     This function is provided with the suffix and the list to give out the result.<br /><br />
-**2. splitSuffix([__|RemList],I,Result) :-**
+**2. splitSuffix([__|RemList],I,Result)**
     This function is used to split the **second half** of the list in the exact same length as that of the suffix provided and then return it back so that it can be checked for equality<br /><br />
 **3. equalListSuffix([H1|T1],[H2|T2])**
     This function checks whether it the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
@@ -42,3 +42,5 @@ All the tress are in the format of tree(Left,Root,Right).
 **3. insert(List, I, Length, tree(NewLeft,NewRoot,NewRight))**
     Here we get the index first and take out the element from there and then make that as a current root then take out indexes for its left and right child while simultaneoudly checking that these indexes stays within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we recieve the final tree. <br /><br />
     
+![image](https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png)
+
