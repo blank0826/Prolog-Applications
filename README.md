@@ -79,7 +79,7 @@ We are given a list and its shows the mirror of its binary tree or binary search
 <img src="https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png" width="570" height="250">
 
 ### Mirror Tree
-<img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="520" height="250">
+<img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="550" height="250">
 
 
 ## Getting Started
