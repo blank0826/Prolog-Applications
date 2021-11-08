@@ -10,6 +10,8 @@ When we look for the provided prefix it first split the list into the same lengt
     This function is used to split the **first half** of the list in the exact same length as that of the prefix provided and then return it back so that it can be checked for equality<br /><br />
 **3. equalListPrefix([H1|T1],[H2|T2])**
     This function checks whether it the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
+    
+    ![image](https://user-images.githubusercontent.com/33955028/140699735-24754d5f-74ce-4c44-84f3-92b1a66c614e.png)
 
 ### Suffix
 Suffix works the same as prefix it just takes the second half of the list while splitting rather than the first half as taken in Prefix.
@@ -21,3 +23,5 @@ Suffix works the same as prefix it just takes the second half of the list while 
     This function is used to split the **second half** of the list in the exact same length as that of the suffix provided and then return it back so that it can be checked for equality<br /><br />
 **3. equalListSuffix([H1|T1],[H2|T2])**
     This function checks whether it the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
+
+![image](https://user-images.githubusercontent.com/33955028/140699764-59456196-d158-4006-b862-bddbce9a3720.png)
