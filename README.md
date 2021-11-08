@@ -1,9 +1,10 @@
 # Prolog-Applications
 ## A. Prefix and Suffix of List
+### Description
 The application tries to check whether the provided suffix or prefix satisfies the given list or not by returning 'true' or 'false'.
 ### 1. Prefix
 When we look for the provided prefix it first split the list into the same length of the prefix as we have to check only those elements in a list and then it will check whether it is equal or not.
-#### <ins>Functions Used</ins>
+#### <ins>Rules Implemented</ins>
 **i. prefix(List1,List2)**
     This function is provided with the prefix and the list to give out the result.<br /><br />
 **ii. splitPrefix([Head|RemList],I,[Head|Result])**
@@ -15,9 +16,10 @@ When we look for the provided prefix it first split the list into the same lengt
 
 
 ### 2. Suffix
+### Description
 Suffix works the same as a prefix it just takes the second half of the list while splitting rather than the first half as taken in Prefix.
 
-#### <ins>Functions Used</ins>
+#### <ins>Rules Implemented</ins>
 **i. suffix(List1,List2)**
     This function is provided with the suffix and the list to give out the result.<br /><br />
 **ii. splitSuffix([__|RemList],I,Result)**
@@ -28,13 +30,14 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 ![image](https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png)
 
 ## B. Creation of Binary Tree_Binary Search Tree and its Mirror
+### Description
 This application creates a binary tree, a binary search tree, and can also create the mirror image of those trees.<br />
 All the trees are in the format of tree(Left, Root, Right).
 
 ### 1. Binary Tree
 A binary tree is created from the list provided by taking elements from the index similar to that as done in array implementation of Binary Tree.
 
-#### <ins>Functions Used</ins>
+#### <ins>Rules Implemented</ins>
 **i. createBT(CurrentNode, tree(-,CurrentNode,-))**
     This function is used to create a node of the tree.<br /><br />
 **ii. insert(List,tree(NewLeft,NewRoot,NewRight))**
@@ -48,7 +51,7 @@ A binary tree is created from the list provided by taking elements from the inde
 A binary tree is created from the list provided by taking elements and checking whether it is less than or greater than the root node.<br />
 After checking the condition we move it into its left or right subtree.
 
-#### <ins>Functions Used</ins>
+#### <ins>Rules Implemented</ins>
 **i. createBST(CurrentNode, -, tree(-,CurrentNode,-))**
     This function is used to create a node of the tree.<br /><br />
 **ii. createBST(CurrentNode, tree(Left, Root, Right), tree(NewLeft, NewRoot, NewRight))**
@@ -63,7 +66,7 @@ After checking the condition we move it into its left or right subtree.
 ### 3. Mirror Tree
 We are given a list and its shows the mirror of its binary tree or binary search tree.
 
-#### <ins>Functions Used</ins>
+#### <ins>Rules Implemented</ins>
 **i. mirror(List,tree(Left,Root,Right))**
     This function is provided with the list and first creates the basic tree then it creates its mirror tree and returns it back.<br />
     _(If you just change the insert function in here with construct you will be able to get the mirror of the BST as well.)_<br />
