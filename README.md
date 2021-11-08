@@ -89,13 +89,13 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns that mirror tree.<br /><br />
 
 ## Screenshots
-### Binary Tree
+### <ins>Binary Tree</ins>
 <img src="https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png" width="570" height="250">
 
-### Binary Search Tree
+### <ins>Binary Search Tree</ins>
 <img src="https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png" width="570" height="250">
 
-### Mirror Tree
+ ### <ins>Mirror Tree</ins>
 <img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="570" height="250">
 
 
