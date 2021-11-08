@@ -99,7 +99,7 @@ We are given a list and its shows the mirror of its binary tree or binary search
 <img src="https://user-images.githubusercontent.com/33955028/140703716-5dfd2f8d-04ba-44fc-bc75-f9fc2c4fcabd.png" width="570" height="250">
 
 
-# Getting Started
+# 
 ## Pre-Requisites
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install SWI Prolog from [here](https://www.swi-prolog.org/download/stable).
 
