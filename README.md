@@ -23,7 +23,7 @@ Suffix works the same as a prefix it just takes the second half of the list whil
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. equalListSuffix([H1|T1],[H2|T2])**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function checks whether the 2 provided lists are equal or not. If there is any non-similar element then it will return false else if the function is able to traverse through both the lists completely then it can be said that the provided prefix was correct. <br /><br />
 
-## Screenshots of the Gameplay
+## Screenshots
 ### Prefix
 <img src="https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png" width="220" height="250">
 
@@ -71,7 +71,7 @@ We are given a list and its shows the mirror of its binary tree or binary search
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. mirrorImage_Tree(tree(Left, Root, Right),tree(NewLeft,Root,NewRight))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
 
-## Screenshots of the Gameplay
+## Screenshots
 ### Binary Tree
 <img src="https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png" width="550" height="250">
 
