@@ -64,7 +64,8 @@ After checking the condition we move it into its left or right subtree.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. createBST(CurrentNode, -, tree(-,CurrentNode,-))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to create a node of the tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. createBST(CurrentNode, tree(Left, Root, Right), tree(NewLeft, NewRoot, NewRight))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the current node and teh already existing tree. We take the current node and check whether it is less than or greater the root node and hence place it into the correct position of tree. This returns the newly created tree.<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we get the current node and the already existing tree. We take the current node and check <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;whether it is less than or greater the root node and hence place it into the correct position of tree. This returns the newly created tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. construct(List, ResultTree)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the list and returns the tree. It also calls the initial state of the construct (function shown below) to begin the construction of BST.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv. construct([CurrentNode|ElementList], CurrentTree, ResultTree)**<br />
