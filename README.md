@@ -16,7 +16,6 @@ When we look for the provided prefix it first split the list into the same lengt
 
 
 ### 2. Suffix
-### Description
 Suffix works the same as a prefix it just takes the second half of the list while splitting rather than the first half as taken in Prefix.
 
 #### <ins>Rules Implemented</ins>
