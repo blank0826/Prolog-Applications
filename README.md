@@ -1,7 +1,7 @@
 # Prolog-Applications
 ## A. Prefix and Suffix of List
 The application tries to check whether the provided suffix or prefix satifies the given list or not by returning 'true' or 'false'.
-### Prefix
+### 1. Prefix
 When we look for the provided prefix it first split the list into the same length of the prefix as we have to check only those elements in a list and then it will check whether it is equal or not.
 #### <ins>Functions Used</ins>
 **1. prefix(List1,List2)**
@@ -14,7 +14,7 @@ When we look for the provided prefix it first split the list into the same lengt
 ![image](https://user-images.githubusercontent.com/33955028/140700252-acfc5d23-524d-4f1b-bc28-d9bff45122cd.png)
 
 
-### Suffix
+### 2. Suffix
 Suffix works the same as prefix it just takes the second half of the list while splitting rather than the first half as taken in Prefix.
 
 #### <ins>Functions Used</ins>
@@ -28,11 +28,11 @@ Suffix works the same as prefix it just takes the second half of the list while 
 ![image](https://user-images.githubusercontent.com/33955028/140700302-cb85e1d0-cfed-4dcb-aa5f-0092f1412730.png)
 
 ## B. Creation of Binary Tree_Binary Search Tree and its Mirror
-This application creates a binary tree, a binary search tree and can also create the mirror image of those trees.
-
-### Binary Tree
-A binary tree is created from the list provided by taking elements from the index similar to that as done in array implementation of Binary Tree.<br />
+This application creates a binary tree, a binary search tree and can also create the mirror image of those trees.<br />
 All the tress are in the format of tree(Left,Root,Right).
+
+### 1. Binary Tree
+A binary tree is created from the list provided by taking elements from the index similar to that as done in array implementation of Binary Tree.
 
 #### <ins>Functions Used</ins>
 **1. createBT(CurrentNode, tree(-,CurrentNode,-))**
@@ -43,4 +43,24 @@ All the tress are in the format of tree(Left,Root,Right).
     Here we get the index first and take out the element from there and then make that as a current root then take out indexes for its left and right child while simultaneoudly checking that these indexes stays within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we recieve the final tree. <br /><br />
     
 ![image](https://user-images.githubusercontent.com/33955028/140701490-907e12a4-79bc-4e44-826b-0c1b8fceb997.png)
+
+### 2. Binary Search Tree
+A binary tree is created from the list provided by taking elements and chceking whether it is less than or greater than the root node.<br />
+After checking the condition we move it into its left or right subtree.
+
+#### <ins>Functions Used</ins>
+**1. createBST(CurrentNode, -, tree(-,CurrentNode,-))**
+    This function is used to create a node of the tree.<br /><br />
+**2. createBST(CurrentNode, tree(Left, Root, Right), tree(NewLeft, NewRoot, NewRight))**
+    Here we get the current node and teh already existing tree. We take the current node and check whether it is less than or greater the root node and hence place it into the correct position of tree. This returns the newly created tree.<br /><br />
+**3. construct(List, ResultTree)**
+    This function is provided with the list and returns the tree. It also calls the initial state of construct (function shown below) to begin the construction of BST.<br /><br />
+**4. construct([CurrentNode|ElementList], CurrentTree, ResultTree)**
+    This function takes in the list provided to create the tree the current tree represents the head of the tree which will be null initially. It creates a node from the first element of the existing list and inserts it into the tree then call recursion to make a tree from the whole list. <br /><br />
+
+![image](https://user-images.githubusercontent.com/33955028/140702821-b25e33da-4204-402f-89a2-f532bb4c3ada.png)
+
+### 3. Mirror Tree
+A binary tree is created from the list provided by taking elements from the index similar to that as done in array implementation of Binary Tree.<br />
+All the tress are in the format of tree(Left,Root,Right).
 
