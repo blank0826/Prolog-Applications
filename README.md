@@ -53,7 +53,8 @@ A binary tree is created from the list provided by taking elements from the inde
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. insert(List, I, Length, tree(NewLeft,NewRoot,NewRight))**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we get the index first and take out the element from there and then take that as a current root then <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;take out indexes for its left and right child while simultaneously checking that these indexes stay within the <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;range after this recursion is called that goes to creates left subtree and right subtree for that node. After <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;completing the whole recursion we receive the final tree. <br /><br />
 
 ## 2. Binary Search Tree
 A binary tree is created from the list provided by taking elements and checking whether it is less than or greater than the root node.<br />
