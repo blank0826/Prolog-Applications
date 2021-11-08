@@ -71,18 +71,21 @@ After checking the condition we move it into its left or right subtree.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is provided with the list and returns the tree. It also calls the initial state of the construct <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function shown below) to begin the construction of BST.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv. construct([CurrentNode|ElementList], CurrentTree, ResultTree)**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree the current tree represents the head of the tree which will be null initially. It creates a node from the first element of the existing list and inserts it into the tree then calls recursion to make a tree from the whole list. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function takes in the list provided to create the tree the current tree represents the head of the tree <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;which will be null initially. It creates a node from the first element of the existing list and inserts it into the tree then calls recursion to make a tree from the whole list. <br /><br />
 
 ## 3. Mirror Tree
 We are given a list and its shows the mirror of its binary tree or binary search tree.
 
 ### <ins>Rules Implemented</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. mirror(List,tree(Left,Root,Right))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is provided with the list and first creates the basic tree then it creates its mirror tree and returns it back.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    _(If you change the insert function with construct you will get the mirror of the BST as well.)_<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is provided with the list and first creates the basic tree then it creates its mirror tree <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and returns it back.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_(If you change the insert function with construct you will get the mirror of the BST as well.)_<br />
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. mirrorImage_Tree(tree(Left, Root, Right),tree(NewLeft,Root,NewRight))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then return that mirror tree.<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the tree and then through recursion swap each left and right child of the then tree and then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;returns that mirror tree.<br /><br />
 
 ## Screenshots
 ### Binary Tree
