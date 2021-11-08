@@ -46,13 +46,14 @@ A binary tree is created from the list provided by taking elements from the inde
 
 ### <ins>Rules Implemented</ins>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**i. createBT(CurrentNode, tree(-,CurrentNode,-))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This function is used to create a node of the tree.<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function is used to create a node of the tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ii. insert(List,tree(NewLeft,NewRoot,NewRight))**<br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   This function takes in the list provided to create the tree and in the result provides the required binary <br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function takes in the list provided to create the tree and in the result provides the required binary <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search tree.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iii. insert(List, I, Length, tree(NewLeft,NewRoot,NewRight))**<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Here we get the index first and take out the element from there and then take that as a current root then <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;take out indexes for its left and right child while simultaneously checking that these indexes stay within the range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we get the index first and take out the element from there and then take that as a current root then <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;take out indexes for its left and right child while simultaneously checking that these indexes stay within the <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;range after this recursion is called that goes to creates left subtree and right subtree for that node. After completing the whole recursion we receive the final tree. <br /><br />
 
 ## 2. Binary Search Tree
 A binary tree is created from the list provided by taking elements and checking whether it is less than or greater than the root node.<br />
