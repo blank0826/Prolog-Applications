@@ -72,7 +72,8 @@ After checking the condition we move it into its left or right subtree.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(function shown below) to begin the construction of BST.<br /><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iv. construct([CurrentNode|ElementList], CurrentTree, ResultTree)**<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function takes in the list provided to create the tree the current tree represents the head of the tree <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;which will be null initially. It creates a node from the first element of the existing list and inserts it into the tree then calls recursion to make a tree from the whole list. <br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;which will be null initially. It creates a node from the first element of the existing list and inserts it into the <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tree then calls recursion to make a tree from the whole list. <br /><br />
 
 ## 3. Mirror Tree
 We are given a list and its shows the mirror of its binary tree or binary search tree.
